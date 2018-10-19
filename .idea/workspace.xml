@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42f981ad-0fde-4974-9374-b09135099d90" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.37c7b33134de67f138e9.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.37c7b33134de67f138e9.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global (heroku).js" beforeDir="false" afterPath="$PROJECT_DIR$/global (heroku).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/global.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/chrome/Default/Preferences" beforeDir="false" afterPath="$PROJECT_DIR$/out/chrome/Default/Preferences" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger/api/documents/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/api/documents/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/seed.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/seed.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,7 +26,7 @@
         <counts>
           <entry key="Preferences" value="1" />
           <entry key="html" value="1" />
-          <entry key="js" value="4" />
+          <entry key="js" value="5" />
           <entry key="json" value="1" />
           <entry key="ts" value="1" />
         </counts>
@@ -41,7 +35,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="4" />
+          <entry key="JavaScript" value="5" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="TypeScript" value="1" />
         </counts>
@@ -49,6 +43,16 @@
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
           <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="68" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="68" />
         </counts>
       </usages-collector>
     </session>
@@ -76,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/global.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-306">
+            <state relative-caret-position="255">
               <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
             </state>
           </provider>
@@ -86,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/global (heroku).js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="31" />
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -113,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/shared/config.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -122,12 +126,21 @@
         <entry file="file://$PROJECT_DIR$/swagger/api/documents/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="279">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/seed.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="1359" column="7" lean-forward="true" selection-start-line="1359" selection-start-column="7" selection-end-line="1359" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1257" />
@@ -155,6 +168,7 @@
         <option value="$PROJECT_DIR$/out/chrome/Default/Preferences" />
         <option value="$PROJECT_DIR$/src/app/shared/config.ts" />
         <option value="$PROJECT_DIR$/swagger/api/documents/index.html" />
+        <option value="$PROJECT_DIR$/api/seed.js" />
       </list>
     </option>
   </component>
@@ -165,9 +179,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -207,20 +218,7 @@
             <path>
               <item name="14-KCPM-HTDD" type="b2602c69:ProjectViewProjectNode" />
               <item name="14-KCPM-HTDD" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="14-KCPM-HTDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="14-KCPM-HTDD" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="14-KCPM-HTDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="14-KCPM-HTDD" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -271,24 +269,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539963538467</updated>
-      <workItem from="1539963540614" duration="749000" />
+      <workItem from="1539963540614" duration="1219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="749000" />
+    <option name="totallyTimeSpent" value="1219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -323,9 +322,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1257" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/global.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
+        <state relative-caret-position="255">
           <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
         </state>
       </provider>
@@ -333,7 +337,7 @@
     <entry file="file://$PROJECT_DIR$/global (heroku).js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="31" />
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -354,20 +358,22 @@
     <entry file="file://$PROJECT_DIR$/src/app/shared/config.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/swagger/api/documents/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/api/seed.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1257" />
+        <state relative-caret-position="174">
+          <caret line="1359" column="7" lean-forward="true" selection-start-line="1359" selection-start-column="7" selection-end-line="1359" selection-end-column="7" />
+        </state>
       </provider>
     </entry>
   </component>
